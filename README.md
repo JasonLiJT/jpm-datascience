@@ -7,7 +7,7 @@ If you are on a unix machine and are a unix wizz (if you are not, please jump to
 Start by installing Anaconda:  [https://www.continuum.io/downloads](https://www.continuum.io/downloads). Then:
 
 ```bash
-sudo pip install seaborn plotly
+pip install seaborn plotly
 ```
 
 And _on the day_,
