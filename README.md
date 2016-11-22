@@ -32,20 +32,30 @@ This includes many necessary libraries we will be using such as `numpy`, `pandas
 
 ## Install Packages with pip
 
-Open your terminal/command prompt and check whether you have the `pip` command correctly installed by typing `pip -V` and enter. It should return something like
+Open your terminal/command prompt and check whether you have the `pip` command correctly installed by typing
 
 ```bash
-pip 9.0.1 from <PATH> (python 3.5)
+pip -V
 ```
 
-where `<PATH>` is a directory on your computer. Note that `pip` comes with Anaconda so if an error is returned, it may mean that you haven't installed Anaconda properly or that your computer does not know where Anaconda is. Check the installation steps of Anaconda to verify you have not missed one.
+Note that `pip` comes with Anaconda so if an error is returned, it may mean that you haven't installed Anaconda properly or that your computer does not know where Anaconda is. Check the installation steps of Anaconda to verify you have not missed one.
 
-Assuming you have `pip`, you may need to use `sudo` (for Mac or Linux) or run your command shell as Administrator (for Windows) to be able to perform the installation of the following individual packages. Try without sudo first and if an error mentioning access rights is returned, add it. The packages to install are `seaborn` and `plotly` (useful to visualise data):
+Assuming you have `pip`, you can now install additional useful libraries, in particular `seaborn` and `plotly` (for data visualisation). For this type:
 
 ```bash
-(sudo) pip install seaborn
-(sudo) pip install plotly
+pip install seaborn plotly
 ```
+
+if it fails mentioning access rights, you need to run the command with administrator rights:
+
+* with Windows this means running the command prompt as administrator,
+* with unix machine, add `sudo` in front of the line i.e.:
+
+```bash
+sudo pip install seaborn plotly
+```
+
+which will prompt you for your system password.
 
 ## Using Git
 
@@ -55,7 +65,7 @@ Git is a very powerful versioning tool. Check if you have it by typing `git --ve
 
 On the day, notebooks and datasets will be made available in the remote folder (_repository_) in which this `README` file is located.
 
-In order to make a local copy of this repository, pick an appropriate location on your computer (say your desktop) navigate to it using your terminal/command-prompt (using the command `cd <DIR>`) and finally execute the cloning command:
+In order to make a local copy of this repository, pick an appropriate location on your computer (say your desktop), open a terminal/command-prompt within that directory and execute the cloning command:
 
 ```bash
 git clone http://gitlab.cambridgespark.com/pub/jpm-datascience
