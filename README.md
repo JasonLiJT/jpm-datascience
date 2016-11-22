@@ -2,8 +2,6 @@
 
 ## Install Python and Anaconda
 
-http://gitlab.cambridgespark.com/pub/jpm-datascience
-
 Start by checking the version of Python that you are running by typing
 
 ```bash
