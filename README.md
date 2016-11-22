@@ -1,5 +1,21 @@
 # Machine Learning in Python Setup Instructions
 
+## Setup for the impatients
+
+If you are on a unix machine and are a unix wizz (if you are not, please jump to the next section) here are the condensed set of actions you need to do:
+
+Start by installing Anaconda:  [https://www.continuum.io/downloads](https://www.continuum.io/downloads). Then:
+
+```bash
+sudo pip install seaborn plotly
+```
+
+And _on the day_,
+
+```bash
+git clone http://gitlab.cambridgespark.com/pub/jpm-datascience/
+```
+
 ## Install Python and Anaconda
 
 Start by checking the version of Python that you are running by typing
@@ -10,7 +26,7 @@ python -V
 
 in your terminal (_Terminal_ in Mac and Linux, _Command prompt_ or `cmd.exe` for Windows). If this fails, download and install Python [https://www.python.org/downloads/](https://www.python.org/downloads/).
 Then, install the corresponding version of Anaconda from:  [https://www.continuum.io/downloads](https://www.continuum.io/downloads).
-This includes many necessary libraries we will be using such as `numpy`, `scipy` and `scikit-learn`.
+This includes many necessary libraries we will be using such as `numpy`, `pandas`, `scipy` and `scikit-learn`.
 
 ## Install Packages with pip
 
