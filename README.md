@@ -59,7 +59,13 @@ which will prompt you for your system password.
 
 ## Using Git
 
-Git is a very powerful versioning tool. Check if you have it by typing `git --version` in your terminal/command-prompt. If it returns an error (along the lines of `command not found`), you can install it from  [http://git-scm.com/](http://git-scm.com/).
+Git is a very powerful versioning tool. Check if you have it by typing
+
+```bash
+git --version
+```
+
+in your terminal/command-prompt. If it returns an error (along the lines of `command not found`), you can install it from  [http://git-scm.com/](http://git-scm.com/).
 
 ### (On the day) clone the code from the repository
 
