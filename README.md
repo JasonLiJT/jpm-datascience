@@ -16,6 +16,8 @@ And _on the day_,
 git clone http://gitlab.cambridgespark.com/pub/jpm-datascience/
 ```
 
+You're now ready to go.
+
 ## Install Python and Anaconda
 
 Start by checking the version of Python that you are running by typing
@@ -36,24 +38,24 @@ Open your terminal/command prompt and check whether you have the `pip` command c
 pip 9.0.1 from <PATH> (python 3.5)
 ```
 
-where `<PATH>` is a directory on your computer. Note that `pip` comes with Anaconda so if an error is returned, it may mean that you haven't installed Anaconda properly or that your computer does not know where Anaconda is. Check the installation steps of Anaconda to verify you have not missed a step.
+where `<PATH>` is a directory on your computer. Note that `pip` comes with Anaconda so if an error is returned, it may mean that you haven't installed Anaconda properly or that your computer does not know where Anaconda is. Check the installation steps of Anaconda to verify you have not missed one.
 
-Assuming you have `pip`, you may need to use `sudo` (for OSX, *nix, etc) or run your command shell as Administrator (for Windows) to be able to perform the installation of the following individual packages. Try without sudo first and if an error mentioning access rights is returned, add it. The packages to install are `seaborn` and `plotly` (useful to visualise data):
+Assuming you have `pip`, you may need to use `sudo` (for Mac or Linux) or run your command shell as Administrator (for Windows) to be able to perform the installation of the following individual packages. Try without sudo first and if an error mentioning access rights is returned, add it. The packages to install are `seaborn` and `plotly` (useful to visualise data):
 
 ```bash
 (sudo) pip install seaborn
 (sudo) pip install plotly
 ```
 
-## Using git
+## Using Git
 
-Check if you have git by typing `git --version` in your terminal/command-propmpt. If it returns an error (along the lines of `command not found`), you can install it from  [http://git-scm.com/](http://git-scm.com/).
+Git is a very powerful versioning tool. Check if you have it by typing `git --version` in your terminal/command-prompt. If it returns an error (along the lines of `command not found`), you can install it from  [http://git-scm.com/](http://git-scm.com/).
 
 ### (On the day) clone the code from the repository
 
-On the day, notebooks and datasets will be made available in a remote folder (_repository_) which you will have to make a local copy of.
+On the day, notebooks and datasets will be made available in the remote folder (_repository_) in which this `README` file is located.
 
-For this, pick an appropriate location on your computer (say your desktop) navigate to it using your terminal (using the command `cd <DIR>`) and finally execute the cloning command:
+In order to make a local copy of this repository, pick an appropriate location on your computer (say your desktop) navigate to it using your terminal/command-prompt (using the command `cd <DIR>`) and finally execute the cloning command:
 
 ```bash
 git clone http://gitlab.cambridgespark.com/pub/jpm-datascience
